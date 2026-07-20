@@ -1,15 +1,15 @@
-# AWS Cloud Security Architecture
-
-Internet
-    |
-    v
-Security Group
-    |
-    v
-Application
-    |
-    v
-CloudWatch
-    |
-    v
-CloudTrail
+Users
+   │
+   ▼
+AWS Security Groups
+   │
+   ▼
+AWS Workloads
+   │
+   ├──────────► AWS CloudTrail
+   │
+   ├──────────► AWS CloudWatch
+   │
+   ├──────────► AWS KMS Encryption
+   │
+   └──────────► AWS Secrets Manager
