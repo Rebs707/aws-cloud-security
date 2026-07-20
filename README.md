@@ -1,18 +1,42 @@
-# AWS Cloud Security
+**AWS Cloud Security**
 
-## Overview
+**Project Overview**
 
-AWS cloud security implementation using security best practices and architecture documentation.
+Cloud security implementation demonstrating AWS security best practices, monitoring, encryption, and secure architecture principles.
 
-## Technologies
+**Project Goal**
+
+Build a secure cloud environment implementing AWS security services, network protection, monitoring, encryption, and secrets management.
+
+**Architecture**
+
+```text
+Users
+   │
+   ▼
+Security Groups
+   │
+   ▼
+AWS Workloads
+   │
+   ├────────► AWS CloudTrail
+   │
+   ├────────► AWS CloudWatch
+   │
+   ├────────► Encryption
+   │
+   └────────► Secrets Management
+```
+
+**Technologies**
 
 - AWS Security Groups
-- CloudTrail
-- CloudWatch
+- AWS CloudTrail
+- AWS CloudWatch
 - Encryption
-- Secrets Management
+- AWS Secrets Management
 
-## Features
+**Features**
 
 - Network security
 - Security monitoring
@@ -20,15 +44,33 @@ AWS cloud security implementation using security best practices and architecture
 - Secrets management
 - Security architecture
 
-## Project Structure
+**Project Structure**
 
-- network-security/
-- monitoring/
-- encryption/
-- secrets/
-- diagrams/
-- screenshots/
+```text
+network-security/
+monitoring/
+encryption/
+secrets/
+diagrams/
+screenshots/
+```
 
-## Status
+**Key Learnings**
 
-Completed
+- AWS security best practices
+- Network security implementation
+- CloudTrail auditing
+- CloudWatch security monitoring
+- Encryption and secrets management
+
+**Status**
+
+✅ Completed
+
+**Future Improvements**
+
+- Implement IAM least privilege policies
+- Add AWS Config compliance rules
+- Integrate Security Hub
+- Automate security scanning
+
