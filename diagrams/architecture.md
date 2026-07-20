@@ -1,3 +1,4 @@
+```text
 Users
    │
    ▼
@@ -13,3 +14,4 @@ AWS Workloads
    ├──────────► AWS KMS Encryption
    │
    └──────────► AWS Secrets Manager
+```
