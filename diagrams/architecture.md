@@ -1,3 +1,5 @@
+# Architecture
+
 ```text
 Users
    │
